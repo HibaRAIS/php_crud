@@ -1,0 +1,107 @@
+
+h1{
+    text-align: center;
+    font-size: 2em;
+    color: rgb(41, 41, 208);
+    margin-top: 50px;
+}
+
+
+form {
+    width: 300px;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form1{
+    width: 300px;
+    margin: 5% auto;
+    padding: 20px;
+    border: none;
+}
+
+/* Style des étiquettes (labels) */
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style des champs de saisie */
+input[type="text"],
+input[type="password"],
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box; /* pour inclure la bordure dans la largeur */
+}
+
+/* Style du bouton soumettre */
+input[type="submit"] {
+    padding: 10px 15px;
+    background-color: #5900ff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button{
+    padding: 10px 15px;
+    background-color: #5900ff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+a{
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    text-decoration-line: none;
+    margin: 10% auto;
+    margin-bottom: 40px;
+}
+
+/* Style du bouton soumettre au survol */
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Style pour la table */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    margin-bottom: 40px; /* Ajoutez de l'espace sous la table */
+}
+
+/* Style pour les en-têtes de colonnes */
+.styled-table th {
+    background-color: #f2f2f2;
+    color: #333;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+    text-align: center;
+}
+
+/* Style pour les cellules de données */
+.styled-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+/* Style pour les lignes impaires (facultatif) */
+.styled-table tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
